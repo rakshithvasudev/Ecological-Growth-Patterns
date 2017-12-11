@@ -1,42 +1,60 @@
 import java.awt.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 
 public class Main {
     private static final int WIDTH = 600;
     private static final int HEIGHT = 400;
-    private static final int ORGANISM_SIZE_PX = 4;
+    private static final int ORGANISM_SIZE_PX = 15;
     private static DrawingPanel drawingPanel = new DrawingPanel(WIDTH, HEIGHT);
     private static Graphics graphics = drawingPanel.getGraphics();
-    private static Map<Coordinates2D,Boolean> firstGenOccupiedStatus = new HashMap<>();
-    private static Map<Coordinates2D,Boolean> nextGenOccupiedStatus = new HashMap<>();
+    private static List<Coordinates2D> firstGenOccupiedLocations = new ArrayList<>();
+    private static List<Coordinates2D> nextGenOccupiedLocations = new ArrayList<>();
 
     public static void main(String[] args) {
-            generateFirstOrganisms(200);
-            System.out.println("Generated First Generation organisms");
+        while (true) {
+            generateFirstGebOrganisms(50);
+            introduceDelay(1500);
+            System.out.println("First Gen:" + firstGenOccupiedLocations);
+            clearScreen();
+
+            generateNextGenOrganisms(30);
+            introduceDelay(500);
+            System.out.println("Second gen: " + nextGenOccupiedLocations);
+        }
+    }
+
+    private static void clearScreen() {
+    drawingPanel.clear();
+    }
+
+    private static void introduceDelay(int i) {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(i);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        generateNextGenOrganisms(200);
-        System.out.println(nextGenOccupiedStatus);
     }
 
     private static void generateNextGenOrganisms(int numberOfOrganisms) {
-        int acceptedOrganismsCount = 0;
-        while(true){
-            if(acceptedOrganismsCount >= numberOfOrganisms){
-                break;
-            }
+         generateOrganisms(numberOfOrganisms,2);
+    }
+
+    private static void generateOrganisms(int numberOfOrganisms, int generation) {
+        for (int i = 0; i < numberOfOrganisms; i++) {
             int randX = randomNumberGenerator(0, WIDTH);
             int randY = randomNumberGenerator(0, HEIGHT);
-            if(checkIfFillable(randX,randY,ORGANISM_SIZE_PX)){
-                nextGenOccupiedStatus.put(new Coordinates2D(randX,randY),true);
-                acceptedOrganismsCount++;
+            graphics.fillRect(randX, randY, ORGANISM_SIZE_PX, ORGANISM_SIZE_PX);
+
+            //
+            if (generation ==1){
+                firstGenOccupiedLocations.add(new Coordinates2D(randX,randY));
+            }else{
+                nextGenOccupiedLocations.add(new Coordinates2D(randX,randY));
             }
+
         }
     }
 
@@ -44,15 +62,8 @@ public class Main {
         return ThreadLocalRandom.current().nextInt(min, max + 1);
     }
 
-    public static void generateFirstOrganisms(int numberOfOrganisms) {
-        for (int i = 0; i < numberOfOrganisms; i++) {
-            int randX = randomNumberGenerator(0, WIDTH);
-            int randY = randomNumberGenerator(0, HEIGHT);
-            graphics.fillRect(randX, randY, ORGANISM_SIZE_PX, ORGANISM_SIZE_PX);
-            firstGenOccupiedStatus.put(new Coordinates2D(randX,randY),true);
-        }
-
-        System.out.println(firstGenOccupiedStatus);
+    public static void generateFirstGebOrganisms(int numberOfOrganisms) {
+        generateOrganisms(numberOfOrganisms,1);
     }
 
     /**
@@ -70,7 +81,7 @@ public class Main {
 
 
         // Iterate through all the points and look out for the neighbours
-        for ( Coordinates2D e: firstGenOccupiedStatus.keySet()) {
+        for ( Coordinates2D e: firstGenOccupiedLocations) {
 
             //Diagonal left neighbour (x-p,y+p)
             if(new Coordinates2D(x-pixelSize,y+pixelSize).equals(e)){
