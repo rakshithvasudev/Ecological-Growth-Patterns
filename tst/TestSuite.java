@@ -4,6 +4,7 @@ import org.junit.runners.Suite;
 /**
  * Created by Rakshith on 12/11/2017.
  * CSC 527 - Extra credit homework.
+ * This class generates a test suite.
  */
 
 
@@ -15,7 +16,8 @@ import org.junit.runners.Suite;
         // include all the test classes to be tested
 
         Coordinates2DTest.class,
-        EcoSystemTest.class
+        EcoSystemTest.class,
+        OrganismTest.class
 
 })
 

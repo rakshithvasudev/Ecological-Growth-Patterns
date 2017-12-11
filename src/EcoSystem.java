@@ -23,6 +23,7 @@ public class EcoSystem {
             generateNextGenOrganisms(30);
             introduceDelay(500);
             System.out.println("Second gen: " + nextGenOccupiedLocations);
+
             clearFirstGenLocations();
             clearNextGenLocations();
         }
@@ -131,4 +132,11 @@ public class EcoSystem {
         return (occupancyCounter == 3)||(occupancyCounter ==2);
     }
 
+    public static List<Coordinates2D> getFirstGenOccupiedLocations() {
+        return firstGenOccupiedLocations;
+    }
+
+    public static void setFirstGenOccupiedLocations(List<Coordinates2D> firstGenOccupiedLocations) {
+        EcoSystem.firstGenOccupiedLocations = firstGenOccupiedLocations;
+    }
 }

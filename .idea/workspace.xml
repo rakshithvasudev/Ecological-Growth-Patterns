@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8800d18-9cc4-4c28-8d15-f749ceefe8ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tst/TestSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tst/OrganismTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Extracredit/Organism.class" afterPath="$PROJECT_DIR$/out/production/Extracredit/Organism.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Extracredit/TestSuite.class" afterPath="$PROJECT_DIR$/out/test/Extracredit/TestSuite.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcoSystem.java" afterPath="$PROJECT_DIR$/src/EcoSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Organism.java" afterPath="$PROJECT_DIR$/src/Organism.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tst/EcoSystemTest.java" afterPath="$PROJECT_DIR$/tst/EcoSystemTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tst/TestSuite.java" afterPath="$PROJECT_DIR$/tst/TestSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,25 +28,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DrawingPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DrawingPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
-              <caret line="1938" column="16" lean-forward="false" selection-start-line="1938" selection-start-column="16" selection-end-line="1938" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#184538#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#75337#75338#0" expanded="true" />
-                <element signature="e#75375#75376#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Coordinates2D.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Coordinates2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
+            <state relative-caret-position="1219">
               <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
@@ -51,13 +41,37 @@
       <file leaf-file-name="EcoSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EcoSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1590">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="-1181">
+              <caret line="94" column="34" lean-forward="true" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#4739#4740#0" expanded="true" />
+                <element signature="e#4787#4788#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EcoSystemTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tst/EcoSystemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1113">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Organism.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Organism.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1855">
+              <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +79,7 @@
       <file leaf-file-name="Coordinates2DTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tst/Coordinates2DTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1285">
+            <state relative-caret-position="914">
               <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EcoSystemTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tst/EcoSystemTest.java">
+      <file leaf-file-name="OrganismTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tst/OrganismTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1272">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="424">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSuite.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSuite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tst/TestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="1219">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,14 +133,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/DrawingPanel.java" />
-        <option value="$PROJECT_DIR$/src/Organism.java" />
         <option value="$PROJECT_DIR$/src/Pair.java" />
         <option value="$PROJECT_DIR$/src/Coordinates2D.java" />
         <option value="$PROJECT_DIR$/src/Main2.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/tst/Coordinates2DTest.java" />
-        <option value="$PROJECT_DIR$/tst/EcoSystemTest.java" />
         <option value="$PROJECT_DIR$/tst/TestSuite.java" />
+        <option value="$PROJECT_DIR$/src/EcoSystem.java" />
+        <option value="$PROJECT_DIR$/src/Organism.java" />
+        <option value="$PROJECT_DIR$/tst/OrganismTest.java" />
+        <option value="$PROJECT_DIR$/tst/EcoSystemTest.java" />
       </list>
     </option>
   </component>
@@ -226,36 +242,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuite">
-    <configuration default="false" name="Coordinates2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Extracredit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Coordinates2DTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="EcoSystemTest.constructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EcoSystemTest.CheckIfFillableTest2">
+    <configuration default="false" name="EcoSystemTest.CheckIfFillableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Extracredit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EcoSystemTest" />
-      <option name="METHOD_NAME" value="constructorTest" />
+      <option name="METHOD_NAME" value="CheckIfFillableTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -269,14 +264,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="EcoSystemTest.staticRandomNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="EcoSystemTest.staticRandomNumberTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Extracredit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EcoSystemTest" />
-      <option name="METHOD_NAME" value="staticRandomNumberTest" />
+      <option name="METHOD_NAME" value="staticRandomNumberTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -290,15 +285,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="EcoSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="EcoSystemTest.CheckIfFillableTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Extracredit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EcoSystemTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="CheckIfFillableTest2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -311,15 +306,36 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="OrganismTest.EqualsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Extracredit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSuite" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="OrganismTest" />
+      <option name="METHOD_NAME" value="EqualsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OrganismTest.hashcodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Extracredit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrganismTest" />
+      <option name="METHOD_NAME" value="hashcodeTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -753,19 +769,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Coordinates2DTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.constructorTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.staticRandomNumberTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EcoSystemTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSuite" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.CheckIfFillableTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.staticRandomNumberTest2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.CheckIfFillableTest2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OrganismTest.EqualsTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OrganismTest.hashcodeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSuite" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EcoSystemTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.staticRandomNumberTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.constructorTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Coordinates2DTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.CheckIfFillableTest2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OrganismTest.hashcodeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OrganismTest.EqualsTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.staticRandomNumberTest2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EcoSystemTest.CheckIfFillableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -789,44 +805,44 @@
       <workItem from="1512982006908" duration="3764000" />
       <workItem from="1512993682674" duration="2217000" />
       <workItem from="1512996011452" duration="1845000" />
-      <workItem from="1513027868566" duration="2720000" />
+      <workItem from="1513027868566" duration="5333000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Coordinates2DTest - 2017.12.11 at 13h 59m 33s.xml">
-      <configuration name="Coordinates2DTest" configurationId="JUnit" />
+    <history-entry file="EcoSystemTest_CheckIfFillableTest - 2017.12.11 at 15h 02m 52s.xml">
+      <configuration name="EcoSystemTest.CheckIfFillableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Coordinates2DTest - 2017.12.11 at 14h 08m 14s.xml">
-      <configuration name="Coordinates2DTest" configurationId="JUnit" />
+    <history-entry file="EcoSystemTest_CheckIfFillableTest - 2017.12.11 at 15h 03m 32s.xml">
+      <configuration name="EcoSystemTest.CheckIfFillableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Coordinates2DTest - 2017.12.11 at 14h 08m 24s.xml">
-      <configuration name="Coordinates2DTest" configurationId="JUnit" />
+    <history-entry file="EcoSystemTest_CheckIfFillableTest - 2017.12.11 at 15h 06m 39s.xml">
+      <configuration name="EcoSystemTest.CheckIfFillableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Coordinates2DTest - 2017.12.11 at 14h 11m 57s.xml">
-      <configuration name="Coordinates2DTest" configurationId="JUnit" />
+    <history-entry file="EcoSystemTest_CheckIfFillableTest - 2017.12.11 at 15h 07m 35s.xml">
+      <configuration name="EcoSystemTest.CheckIfFillableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Coordinates2DTest_constructorTest - 2017.12.11 at 13h 59m 25s.xml">
-      <configuration name="Coordinates2DTest.constructorTest" configurationId="JUnit" />
+    <history-entry file="EcoSystemTest_CheckIfFillableTest2 - 2017.12.11 at 15h 11m 25s.xml">
+      <configuration name="EcoSystemTest.CheckIfFillableTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EcoSystemTest - 2017.12.11 at 14h 23m 51s.xml">
-      <configuration name="EcoSystemTest" configurationId="JUnit" />
+    <history-entry file="EcoSystemTest_CheckIfFillableTest2 - 2017.12.11 at 15h 15m 51s.xml">
+      <configuration name="EcoSystemTest.CheckIfFillableTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EcoSystemTest_constructorTest - 2017.12.11 at 14h 17m 58s.xml">
-      <configuration name="EcoSystemTest.constructorTest" configurationId="JUnit" />
+    <history-entry file="EcoSystemTest_staticRandomNumberTest2 - 2017.12.11 at 15h 09m 42s.xml">
+      <configuration name="EcoSystemTest.staticRandomNumberTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EcoSystemTest_staticRandomNumberTest - 2017.12.11 at 14h 23m 42s.xml">
-      <configuration name="EcoSystemTest.staticRandomNumberTest" configurationId="JUnit" />
+    <history-entry file="OrganismTest_EqualsTest - 2017.12.11 at 15h 13m 59s.xml">
+      <configuration name="OrganismTest.EqualsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSuite - 2017.12.11 at 14h 31m 19s.xml">
-      <configuration name="TestSuite" configurationId="JUnit" />
+    <history-entry file="OrganismTest_hashcodeTest - 2017.12.11 at 15h 14m 45s.xml">
+      <configuration name="OrganismTest.hashcodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSuite - 2017.12.11 at 14h 31m 31s.xml">
-      <configuration name="TestSuite" configurationId="JUnit" />
+    <history-entry file="OrganismTest_toStringTest - 2017.12.11 at 15h 00m 26s.xml">
+      <configuration name="OrganismTest.toStringTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35389000" />
+    <option name="totallyTimeSpent" value="38002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
@@ -901,8 +917,10 @@
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -936,8 +954,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -956,8 +976,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -981,8 +1001,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1001,8 +1023,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1026,8 +1048,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1045,8 +1069,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1070,8 +1094,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1089,8 +1115,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1114,8 +1140,10 @@
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1133,8 +1161,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1158,8 +1186,10 @@
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1177,8 +1207,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1202,8 +1232,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1221,8 +1253,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1246,8 +1278,10 @@
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1271,28 +1305,19 @@
           <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/awt/Graphics.class" />
     <entry file="file://$PROJECT_DIR$/src/Main2.java" />
-    <entry file="file://$PROJECT_DIR$/src/Organism.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
-          <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DrawingPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
+        <state relative-caret-position="-3286">
           <caret line="1938" column="16" lean-forward="false" selection-start-line="1938" selection-start-column="16" selection-end-line="1938" selection-end-column="16" />
           <folding>
             <element signature="e#0#184538#0" expanded="true" />
@@ -1305,15 +1330,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Coordinates2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
+        <state relative-caret-position="1219">
           <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcoSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1181">
+          <caret line="94" column="34" lean-forward="true" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst/OrganismTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tst/Coordinates2DTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1285">
+        <state relative-caret-position="914">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1321,32 +1380,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcoSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/Organism.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1590">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1855">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/EcoSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1272">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tst/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="1113">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
