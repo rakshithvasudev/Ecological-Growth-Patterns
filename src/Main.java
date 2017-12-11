@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
         while (true) {
-            generateFirstGebOrganisms(50);
+            generateFirstGenOrganisms(50);
             introduceDelay(1500);
             System.out.println("First Gen:" + firstGenOccupiedLocations);
             clearScreen();
@@ -23,11 +23,21 @@ public class Main {
             generateNextGenOrganisms(30);
             introduceDelay(500);
             System.out.println("Second gen: " + nextGenOccupiedLocations);
+            clearFirstGenLocations();
+            clearNextGenLocations();
         }
     }
 
+    private static void clearNextGenLocations() {
+        nextGenOccupiedLocations.clear();
+    }
+
+    private static void clearFirstGenLocations() {
+        firstGenOccupiedLocations.clear();
+    }
+
     private static void clearScreen() {
-    drawingPanel.clear();
+        drawingPanel.clear();
     }
 
     private static void introduceDelay(int i) {
@@ -39,22 +49,45 @@ public class Main {
     }
 
     private static void generateNextGenOrganisms(int numberOfOrganisms) {
-         generateOrganisms(numberOfOrganisms,2);
+        generateOrganisms(numberOfOrganisms,2);
     }
 
     private static void generateOrganisms(int numberOfOrganisms, int generation) {
         for (int i = 0; i < numberOfOrganisms; i++) {
             int randX = randomNumberGenerator(0, WIDTH);
             int randY = randomNumberGenerator(0, HEIGHT);
-            graphics.fillRect(randX, randY, ORGANISM_SIZE_PX, ORGANISM_SIZE_PX);
 
-            //
+            // if the generation is 1 then directly paint on the screen
             if (generation ==1){
+                graphics.fillRect(randX, randY, ORGANISM_SIZE_PX, ORGANISM_SIZE_PX);
                 firstGenOccupiedLocations.add(new Coordinates2D(randX,randY));
-            }else{
-                nextGenOccupiedLocations.add(new Coordinates2D(randX,randY));
             }
 
+            // validate the positions of organisms before painting by checking the neighbours
+            else{
+
+                // keep generating random numbers until required number
+                // of organisms are generated.
+                while(true) {
+                    int acceptedCounter = 0;
+                    randX = randomNumberGenerator(0, WIDTH);
+                    randY = randomNumberGenerator(0, HEIGHT);
+
+                    // check if the generated random numbers are eligible
+                    // to be generated as an organism that could be fit inside.
+                    if (checkIfFillable(randX, randY, ORGANISM_SIZE_PX)) {
+                        graphics.fillRect(randX, randY, ORGANISM_SIZE_PX, ORGANISM_SIZE_PX);
+
+                        // keep a track of the filled locations
+                        nextGenOccupiedLocations.add(new Coordinates2D(randX, randY));
+                        acceptedCounter++;
+                    }
+
+                    // if the desired number of organisms are generated then, get out of the loop.
+                    if(acceptedCounter == numberOfOrganisms)
+                        break;
+                }
+            }
         }
     }
 
@@ -62,7 +95,7 @@ public class Main {
         return ThreadLocalRandom.current().nextInt(min, max + 1);
     }
 
-    public static void generateFirstGebOrganisms(int numberOfOrganisms) {
+    public static void generateFirstGenOrganisms(int numberOfOrganisms) {
         generateOrganisms(numberOfOrganisms,1);
     }
 
@@ -70,7 +103,7 @@ public class Main {
      * Checks if there is an opportunity for a new organism to be grown
      * based on the rules that :
      * There was an organism at the location in the last generation and two of the eight
-       neighboring locations also contained organisms;
+     neighboring locations also contained organisms;
      * Three of the eight neighboring locations contained organisms in the last generation.
      * @param x
      * @param y
@@ -78,7 +111,7 @@ public class Main {
      */
     public static boolean checkIfFillable(int x, int y, int organismSize){
         int occupancyCounter = 0;
-        
+
         // Iterate through all the points and look out for the neighbours
         for ( Coordinates2D e: firstGenOccupiedLocations) {
 
