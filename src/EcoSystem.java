@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 
-public class Main {
+public class EcoSystem {
     private static final int WIDTH = 600;
     private static final int HEIGHT = 400;
     private static final int ORGANISM_SIZE_PX = 15;
@@ -37,7 +37,7 @@ public class Main {
     }
 
     private static void clearScreen() {
-        drawingPanel.clear();
+    drawingPanel.clear();
     }
 
     private static void introduceDelay(int i) {
@@ -49,7 +49,7 @@ public class Main {
     }
 
     private static void generateNextGenOrganisms(int numberOfOrganisms) {
-        generateOrganisms(numberOfOrganisms,2);
+         generateOrganisms(numberOfOrganisms,2);
     }
 
     private static void generateOrganisms(int numberOfOrganisms, int generation) {
@@ -57,36 +57,14 @@ public class Main {
             int randX = randomNumberGenerator(0, WIDTH);
             int randY = randomNumberGenerator(0, HEIGHT);
 
-            // if the generation is 1 then directly paint on the screen
+            //
             if (generation ==1){
                 graphics.fillRect(randX, randY, ORGANISM_SIZE_PX, ORGANISM_SIZE_PX);
                 firstGenOccupiedLocations.add(new Coordinates2D(randX,randY));
-            }
+            }else{
 
-            // validate the positions of organisms before painting by checking the neighbours
-            else{
-
-                // keep generating random numbers until required number
-                // of organisms are generated.
-                while(true) {
-                    int acceptedCounter = 0;
-                    randX = randomNumberGenerator(0, WIDTH);
-                    randY = randomNumberGenerator(0, HEIGHT);
-
-                    // check if the generated random numbers are eligible
-                    // to be generated as an organism that could be fit inside.
-                    if (checkIfFillable(randX, randY, ORGANISM_SIZE_PX)) {
-                        graphics.fillRect(randX, randY, ORGANISM_SIZE_PX, ORGANISM_SIZE_PX);
-
-                        // keep a track of the filled locations
-                        nextGenOccupiedLocations.add(new Coordinates2D(randX, randY));
-                        acceptedCounter++;
-                    }
-
-                    // if the desired number of organisms are generated then, get out of the loop.
-                    if(acceptedCounter == numberOfOrganisms)
-                        break;
-                }
+                graphics.fillRect(randX, randY, ORGANISM_SIZE_PX, ORGANISM_SIZE_PX);
+                nextGenOccupiedLocations.add(new Coordinates2D(randX,randY));
             }
         }
     }
@@ -103,7 +81,7 @@ public class Main {
      * Checks if there is an opportunity for a new organism to be grown
      * based on the rules that :
      * There was an organism at the location in the last generation and two of the eight
-     neighboring locations also contained organisms;
+       neighboring locations also contained organisms;
      * Three of the eight neighboring locations contained organisms in the last generation.
      * @param x
      * @param y
