@@ -76,43 +76,42 @@ public class Main {
      * @param y
      * @return
      */
-    public static boolean checkIfFillable(int x, int y, int pixelSize){
+    public static boolean checkIfFillable(int x, int y, int organismSize){
         int occupancyCounter = 0;
-
-
+        
         // Iterate through all the points and look out for the neighbours
         for ( Coordinates2D e: firstGenOccupiedLocations) {
 
             //Diagonal left neighbour (x-p,y+p)
-            if(new Coordinates2D(x-pixelSize,y+pixelSize).equals(e)){
+            if(new Coordinates2D(x-organismSize,y+organismSize).equals(e)){
                 occupancyCounter++;
             }
             //top neighbour (x,y+p)
-            else if(new Coordinates2D(x,y+pixelSize).equals(e)){
+            else if(new Coordinates2D(x,y+organismSize).equals(e)){
                 occupancyCounter++;
             }
             //top right neighbour (x+p,y+p)
-            else if(new Coordinates2D(x+pixelSize,y+pixelSize).equals(e)){
+            else if(new Coordinates2D(x+organismSize,y+organismSize).equals(e)){
                 occupancyCounter++;
             }
             //right neighbour (x+p,y)
-            else if(new Coordinates2D(x+pixelSize,y).equals(e)){
+            else if(new Coordinates2D(x+organismSize,y).equals(e)){
                 occupancyCounter++;
             }
             //bottom right neighbour (x+p,y)
-            else if(new Coordinates2D(x+pixelSize,y-pixelSize).equals(e)){
+            else if(new Coordinates2D(x+organismSize,y-organismSize).equals(e)){
                 occupancyCounter++;
             }
             //bottom neighbour (x,y-p)
-            else if(new Coordinates2D(x,y-pixelSize).equals(e)){
+            else if(new Coordinates2D(x,y-organismSize).equals(e)){
                 occupancyCounter++;
             }
             //bottom left neighbour (x-p,y-p)
-            else if(new Coordinates2D(x-pixelSize,y-pixelSize).equals(e)){
+            else if(new Coordinates2D(x-organismSize,y-organismSize).equals(e)){
                 occupancyCounter++;
             }
             //left neighbour (x-p,y)
-            else if(new Coordinates2D(x-pixelSize,y).equals(e)){
+            else if(new Coordinates2D(x-organismSize,y).equals(e)){
                 occupancyCounter++;
             }
 
