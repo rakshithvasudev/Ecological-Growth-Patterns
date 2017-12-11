@@ -23,7 +23,7 @@ public class EcoSystem {
             generateFirstGenOrganisms(150);
             introduceDelay(500);
             System.out.println("First Gen:" + firstGenOccupiedLocations);
-            clearScreen();
+
 
             generateNextGenOrganisms(100);
             introduceDelay(100);
@@ -31,21 +31,35 @@ public class EcoSystem {
 
             clearFirstGenLocations();
             clearNextGenLocations();
+            clearScreen();
         }
     }
 
+    /**
+     * Clears the memory locations for the second generations and beyond.
+     */
     private static void clearNextGenLocations() {
         nextGenOccupiedLocations.clear();
     }
 
+    /**
+     * Clears the memory locations for the first gen.
+     */
     private static void clearFirstGenLocations() {
         firstGenOccupiedLocations.clear();
     }
 
+    /**
+     * Clears the screen
+     */
     private static void clearScreen() {
     drawingPanel.clear();
     }
 
+    /**
+     * Delay the execution of the program by a specified time.
+     * @param i time to delay.
+     */
     private static void introduceDelay(int i) {
         try {
             Thread.sleep(i);
