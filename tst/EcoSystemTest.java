@@ -18,6 +18,7 @@ public class EcoSystemTest {
         int min = 32;
         int max = 45;
         Assert.assertTrue("Static Random Number Test test failed!",
-                (EcoSystem.randomNumberGenerator(min,max)>=min && EcoSystem.randomNumberGenerator(min,max)<=max));
+                (EcoSystem.randomNumberGenerator(min,max)>=min &&
+                        EcoSystem.randomNumberGenerator(min,max)<=max));
     }
 }
