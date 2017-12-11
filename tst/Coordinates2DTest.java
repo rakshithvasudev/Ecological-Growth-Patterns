@@ -43,7 +43,7 @@ public class Coordinates2DTest {
         // Assert
         Coordinates2D cd1 = new Coordinates2D(35,450);
 
-        
+
         int hashCode1 = cd1.hashCode();
         int hashCode2 = cd1.hashCode();
 
