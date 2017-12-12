@@ -1,7 +1,8 @@
 import java.io.Serializable;
 
 /**
- *  A class that tracks the 2D co-ordinates.
+ *  A class that tracks the 2D co-ordinate for organisms.
+ *
  *
  */
 public class Coordinates2D implements Serializable {

@@ -1,6 +1,5 @@
 import org.junit.Assert;
 import org.junit.Test;
-import sun.rmi.server.DeserializationChecker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -118,15 +117,38 @@ public class EcoSystemTest {
         EcoSystem ecs = new EcoSystem();
         ecs.setFirstGenOccupiedLocations(firstLocations);
 
-
+        // serialize the list
         ecs.serializeObjects();
 
-
+        // deserialize the list
         deserializedFirstLocations = EcoSystem.DeserializeObjects();
 
         System.out.println(deserializedFirstLocations);
 
         Assert.assertTrue(deserializedFirstLocations.size()>0);
+    }
+
+    @Test
+    public void loadFromSerializedFileTest(){
+        List<Coordinates2D> firstLocations = new ArrayList<>();
+        List<Coordinates2D> deserializedFirstLocations;
+
+        firstLocations.add(new Coordinates2D(123,110));
+        firstLocations.add(new Coordinates2D(345,90));
+        firstLocations.add(new Coordinates2D(280,80));
+        firstLocations.add(new Coordinates2D(180,60));
+        firstLocations.add(new Coordinates2D(580,50));
+        firstLocations.add(new Coordinates2D(380,90));
+        firstLocations.add(new Coordinates2D(450,10));
+
+        EcoSystem ecs = new EcoSystem();
+        ecs.setFirstGenOccupiedLocations(firstLocations);
+
+        // serialize the list
+        ecs.serializeObjects();
+
+        ecs.loadFromSerializedFile();
+
     }
 
 

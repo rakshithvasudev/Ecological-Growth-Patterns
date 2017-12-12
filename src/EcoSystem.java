@@ -4,7 +4,10 @@ import java.util.*;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-
+/**
+ * Created by Rakshith on 10 Dec 2017 for CSC 527 - Extra credit
+ * assignment.
+ */
 public class EcoSystem implements Serializable {
     private static final int WIDTH = 600;
     private static final int HEIGHT = 400;
@@ -258,5 +261,22 @@ public class EcoSystem implements Serializable {
 
      return firstGenOccupiedLocationsOutput;
     }
+
+
+    /**
+     * Loads the stuff from a serialized file and paints them.
+     * This is where implemented serialization gets applied.
+     * @return true if loaded.
+     */
+    public boolean loadFromSerializedFile(){
+        firstGenOccupiedLocations = DeserializeObjects();
+        clearScreen();
+
+        for (Coordinates2D e: firstGenOccupiedLocations){
+            graphics.fillRect(e.getX(),e.getY(),ORGANISM_SIZE_PX,ORGANISM_SIZE_PX);
+        }
+        return true;
+    }
+
 }
 
