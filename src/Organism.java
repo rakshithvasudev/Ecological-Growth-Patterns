@@ -1,6 +1,11 @@
 import java.awt.*;
+import java.io.Serializable;
 
-public class Organism {
+/**
+ * This class is responsible to representing organisms,
+ * supports hashcode, equals and serialization.
+ */
+public class Organism implements Serializable{
     public static final int WIDTH = 600;
     public static final int HEIGHT = 400;
     public static final int ORGANISM_SIZE_PX = 4;
@@ -22,7 +27,7 @@ public class Organism {
 
 
     /**
-     * Performs state comparison
+     * Performs state comparison on the co-ordinates.
      * @param o object to be checked for
      * @return true only if the objects are equal state wise.
      */

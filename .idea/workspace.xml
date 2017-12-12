@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8800d18-9cc4-4c28-8d15-f749ceefe8ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcoSystem.java" afterPath="$PROJECT_DIR$/src/EcoSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tst/EcoSystemTest.java" afterPath="$PROJECT_DIR$/tst/EcoSystemTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Organism.java" afterPath="$PROJECT_DIR$/src/Organism.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EcoSystem.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EcoSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EcoSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="293" column="20" lean-forward="false" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
+            <state relative-caret-position="7671">
+              <caret line="290" column="27" lean-forward="true" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1956#1957#0" expanded="true" />
@@ -74,12 +73,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Organism.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Organism.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Organism.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="159">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,10 +112,10 @@
         <option value="$PROJECT_DIR$/tst/Coordinates2DTest.java" />
         <option value="$PROJECT_DIR$/tst/TestSuite.java" />
         <option value="$PROJECT_DIR$/tst/OrganismTest.java" />
-        <option value="$PROJECT_DIR$/src/Organism.java" />
         <option value="$PROJECT_DIR$/src/Coordinates2D.java" />
         <option value="$PROJECT_DIR$/tst/EcoSystemTest.java" />
         <option value="$PROJECT_DIR$/src/EcoSystem.java" />
+        <option value="$PROJECT_DIR$/src/Organism.java" />
       </list>
     </option>
   </component>
@@ -757,7 +758,7 @@
       <workItem from="1512982006908" duration="3764000" />
       <workItem from="1512993682674" duration="2217000" />
       <workItem from="1512996011452" duration="1845000" />
-      <workItem from="1513027868566" duration="14272000" />
+      <workItem from="1513027868566" duration="14443000" />
     </task>
     <servers />
   </component>
@@ -794,7 +795,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46941000" />
+    <option name="totallyTimeSpent" value="47112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
@@ -932,8 +933,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -981,8 +982,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1029,8 +1030,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1077,8 +1078,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1125,8 +1126,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1173,8 +1174,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1221,8 +1222,8 @@
         <state relative-caret-position="265">
           <caret line="5" column="49" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
           <folding>
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1338,14 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Organism.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Coordinates2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
@@ -1366,8 +1359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcoSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="293" column="20" lean-forward="false" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
+        <state relative-caret-position="7671">
+          <caret line="290" column="27" lean-forward="true" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1956#1957#0" expanded="true" />
@@ -1376,6 +1369,16 @@
             <element signature="e#4591#4592#0" expanded="true" />
             <element signature="e#6931#6932#0" expanded="true" />
             <element signature="e#6979#6980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Organism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
