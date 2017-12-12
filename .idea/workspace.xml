@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8800d18-9cc4-4c28-8d15-f749ceefe8ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EcoSystem.java" afterPath="$PROJECT_DIR$/src/EcoSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tst/EcoSystemTest.java" afterPath="$PROJECT_DIR$/tst/EcoSystemTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +35,16 @@
       <file leaf-file-name="EcoSystem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EcoSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="1311">
+              <caret line="293" column="20" lean-forward="false" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1898#1899#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-                <element signature="e#4479#4480#0" expanded="true" />
-                <element signature="e#4533#4534#0" expanded="true" />
-                <element signature="e#6873#6874#0" expanded="true" />
-                <element signature="e#6921#6922#0" expanded="true" />
-                <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+                <element signature="e#1956#1957#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#4537#4538#0" expanded="true" />
+                <element signature="e#4591#4592#0" expanded="true" />
+                <element signature="e#6931#6932#0" expanded="true" />
+                <element signature="e#6979#6980#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/tst/EcoSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1285">
-              <caret line="149" column="37" lean-forward="true" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
+              <caret line="152" column="29" lean-forward="false" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -757,7 +757,7 @@
       <workItem from="1512982006908" duration="3764000" />
       <workItem from="1512993682674" duration="2217000" />
       <workItem from="1512996011452" duration="1845000" />
-      <workItem from="1513027868566" duration="14060000" />
+      <workItem from="1513027868566" duration="14272000" />
     </task>
     <servers />
   </component>
@@ -794,7 +794,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46729000" />
+    <option name="totallyTimeSpent" value="46941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
@@ -869,13 +869,12 @@
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -909,13 +908,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -959,13 +957,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1009,13 +1006,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1058,13 +1054,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1107,13 +1102,12 @@
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1156,13 +1150,12 @@
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1205,13 +1198,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1254,13 +1246,12 @@
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1284,13 +1275,12 @@
           <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1348,13 +1338,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tst/EcoSystemTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Organism.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1285">
-          <caret line="149" column="37" lean-forward="true" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="106">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1366,27 +1354,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Organism.java">
+    <entry file="file://$PROJECT_DIR$/tst/EcoSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="1285">
+          <caret line="152" column="29" lean-forward="false" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcoSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="1311">
+          <caret line="293" column="20" lean-forward="false" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <marker date="1513046751143" expanded="true" signature="128:315" ph="/**...*/" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+            <element signature="e#6979#6980#0" expanded="true" />
           </folding>
         </state>
       </provider>

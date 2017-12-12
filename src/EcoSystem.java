@@ -7,7 +7,8 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * Created by Rakshith on 10 Dec 2017 for CSC 527 - Extra credit
  * assignment. This class is responsible for
- * creating an entire ecosystem. This class supports serialization
+ * creating an entire ecosystem.This demonstrates the simulation of organisms.
+ * This class supports serialization as well.
  *
  */
 public class EcoSystem implements Serializable {
@@ -286,6 +287,10 @@ public class EcoSystem implements Serializable {
 
         // proceed further by generating continuously
         main(new String[]{"args"});
+
+        if(firstGenOccupiedLocations.size()==0){
+            return false;
+        }
         return true;
     }
 

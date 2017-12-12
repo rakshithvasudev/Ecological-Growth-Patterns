@@ -131,7 +131,7 @@ public class EcoSystemTest {
     @Test
     public void loadFromSerializedFileTest(){
         List<Coordinates2D> firstLocations = new ArrayList<>();
-        List<Coordinates2D> deserializedFirstLocations;
+
 
         firstLocations.add(new Coordinates2D(123,110));
         firstLocations.add(new Coordinates2D(345,90));
@@ -147,7 +147,10 @@ public class EcoSystemTest {
         // serialize the list
         ecs.serializeObjects();
 
-        ecs.loadFromSerializedFile();
+
+
+        Assert.assertTrue("LoadFromSerializedFileTest Failed ",
+                ecs.loadFromSerializedFile());
 
     }
 
