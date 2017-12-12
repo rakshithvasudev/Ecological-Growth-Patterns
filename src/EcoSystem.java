@@ -6,12 +6,20 @@ import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Created by Rakshith on 10 Dec 2017 for CSC 527 - Extra credit
- * assignment.
+ * assignment. This class is responsible for
+ * creating an entire ecosystem. This class supports serialization
+ *
  */
 public class EcoSystem implements Serializable {
+    // screen width for the drawing panel
     private static final int WIDTH = 600;
+
+    // screen height for the drawing panel
     private static final int HEIGHT = 400;
+
+    // Size of the organism in pixels
     private static final int ORGANISM_SIZE_PX = 15;
+
     private static DrawingPanel drawingPanel = new DrawingPanel(WIDTH, HEIGHT);
     private static Graphics graphics = drawingPanel.getGraphics();
     private static List<Coordinates2D> firstGenOccupiedLocations = new ArrayList<>();
@@ -275,6 +283,9 @@ public class EcoSystem implements Serializable {
         for (Coordinates2D e: firstGenOccupiedLocations){
             graphics.fillRect(e.getX(),e.getY(),ORGANISM_SIZE_PX,ORGANISM_SIZE_PX);
         }
+
+        // proceed further by generating continuously
+        main(new String[]{"args"});
         return true;
     }
 
