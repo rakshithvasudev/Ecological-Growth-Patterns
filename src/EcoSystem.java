@@ -1,10 +1,11 @@
 import java.awt.*;
+import java.io.*;
 import java.util.*;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 
-public class EcoSystem {
+public class EcoSystem implements Serializable {
     private static final int WIDTH = 600;
     private static final int HEIGHT = 400;
     private static final int ORGANISM_SIZE_PX = 15;
@@ -178,7 +179,7 @@ public class EcoSystem {
     }
 
     /**
-     * Gets the locations
+     * Gets the Occupied locations
      * @return the filled first gen occupied spots.
      */
     public static List<Coordinates2D> getFirstGenOccupiedLocations() {
@@ -192,4 +193,70 @@ public class EcoSystem {
     public static void setFirstGenOccupiedLocations(List<Coordinates2D> firstGenOccupiedLocations) {
         EcoSystem.firstGenOccupiedLocations = firstGenOccupiedLocations;
     }
+
+    /**
+     * Serialize the firstGenOccupiedLocations object
+     */
+    public static void serializeObjects(){
+        String filename = "file.ser";
+
+        try
+        {
+            //Saving of object in a file
+            FileOutputStream file = new FileOutputStream(filename);
+            ObjectOutputStream out = new ObjectOutputStream(file);
+
+            // Method for serialization of object
+            out.writeObject(firstGenOccupiedLocations);
+
+            out.close();
+            file.close();
+
+            System.out.println("Object has been serialized");
+
+        }
+
+        catch(Exception ex)
+        {
+            System.out.println("Exception is caught: " + ex );
+            System.out.println(" Here's the call stack: \n");
+            ex.printStackTrace();
+        }
+    }
+
+    /**
+     * Deserialize the stored object
+     */
+    public static List<Coordinates2D> DeserializeObjects(){
+        String filename = "file.ser";
+        List<Coordinates2D> firstGenOccupiedLocationsOutput = null;
+        try
+        {
+            // Reading the object from a file
+            FileInputStream file = new FileInputStream(filename);
+            ObjectInputStream in = new ObjectInputStream(file);
+
+            // Method for deserialization of object
+            firstGenOccupiedLocationsOutput = (ArrayList<Coordinates2D>) in.readObject();
+
+            in.close();
+            file.close();
+
+            System.out.println("Object has been Deserialized ");
+
+        }
+
+        catch(IOException ex)
+        {
+            System.out.println("IOException is caught");
+        }
+
+        catch(ClassNotFoundException ex)
+        {
+            System.out.println("ClassNotFoundException is caught");
+        }
+
+     return firstGenOccupiedLocationsOutput;
+    }
 }
+

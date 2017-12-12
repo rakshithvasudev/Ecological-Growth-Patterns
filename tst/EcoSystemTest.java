@@ -1,8 +1,10 @@
 import org.junit.Assert;
 import org.junit.Test;
+import sun.rmi.server.DeserializationChecker;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created by Rakshith on 12/11/2017.
@@ -74,6 +76,37 @@ public class EcoSystemTest {
         // should allow to accommodate, which is supposed to pass the condition.
         Assert.assertTrue("Check If Fillable Test failed!",
                 EcoSystem.checkIfFillable(min,max,10));
+    }
+
+    @Test
+    public void SerializeTest(){
+
+        List<Coordinates2D> firstLocations = new ArrayList<>();
+
+        // all points are in the vicinity of a given organism.
+        firstLocations.add(new Coordinates2D(200,110));
+        firstLocations.add(new Coordinates2D(80,90));
+        firstLocations.add(new Coordinates2D(80,100));
+
+        EcoSystem ecs = new EcoSystem();
+        ecs.setFirstGenOccupiedLocations(firstLocations);
+
+
+        ecs.serializeObjects();
+
+        // look for file.ser
+        Scanner sc = new Scanner("file.ser");
+
+        // check if there's an element inside the scanner element.
+        Assert.assertTrue("SerializeTest Test failed!",
+                 sc.hasNext());
+    }
+
+    @Test
+    public void DeserializationTest(){
+        List<Coordinates2D> firstLocations = new ArrayList<>();
+
+
     }
 
 

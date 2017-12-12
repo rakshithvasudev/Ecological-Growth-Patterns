@@ -1,8 +1,10 @@
+import java.io.Serializable;
+
 /**
  *  A class that tracks the 2D co-ordinates.
  *
  */
-public class Coordinates2D {
+public class Coordinates2D implements Serializable {
     private int x;
     private int y;
 

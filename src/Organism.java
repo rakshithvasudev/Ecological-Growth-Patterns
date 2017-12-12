@@ -21,6 +21,11 @@ public class Organism {
     }
 
 
+    /**
+     * Performs state comparison
+     * @param o object to be checked for
+     * @return true only if the objects are equal state wise.
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
